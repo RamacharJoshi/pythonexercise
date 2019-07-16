@@ -1,0 +1,8 @@
+tc=900
+level=input("enter the current level")
+level_perc=level*100/tc
+
+if level_perc>80:
+    print("raise the alarm close the valve")
+elif level_perc<20:
+    print("send sms to but more liquid")
