@@ -1,0 +1,17 @@
+e=input("enter e marks ")
+e=int(e)
+s=input("enter s marks ")
+s=int(s)
+m=input("enter m marks ")
+m=int(m)
+pe=e*100/75
+ps=s*100/90
+pm=m*100/100
+if pe>90 and ps>90 and pm>90:
+    print("grade a")
+elif pe>80 and ps>80 and pm>80:
+    print("grade b")
+elif pe<35 or ps<35 or pm<35:
+    print("fail")
+else:
+    print("average")
