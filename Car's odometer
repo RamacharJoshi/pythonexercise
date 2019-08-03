@@ -1,0 +1,5 @@
+st_value=50
+int=int(st_value)
+end_value=500
+mileage=st_value*end_value/100
+print(mileage)
