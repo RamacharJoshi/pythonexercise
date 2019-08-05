@@ -1,0 +1,17 @@
+st_value=input("enter the value: ")
+st_value=int(st_value)
+end_value=input("enter the value: ")
+end_value=int(end_value)
+fuel=input("enter the comsumed value: ")
+fuel=int(fuel)
+fuel_consumed=end_value-st_value
+fuel_consumed=fuel_consumed/fuel
+print(fuel_consumed)
+
+tank_capacity=input("enter the capacity: ")
+tank_capacity=int(tank_capacity)
+blore=0
+goa=560
+distance=goa-blore
+refuelling=distance/tank_capacity
+print(refuelling)
