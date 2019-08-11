@@ -1,0 +1,7 @@
+fname="Dharmender"
+lname="Singh"
+name=fname+lname
+print("Name :",fname,"Surname:",lname)
+print (name .upper())
+print()
+print(fname,lname.lower())
