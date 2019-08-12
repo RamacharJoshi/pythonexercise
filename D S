@@ -1,0 +1,11 @@
+fname="dharmender"
+lname="singh"
+fname2=len(fname)
+lname2=len(lname)
+    
+while True:
+    if fname2>2 and lname2>2:
+        fname=fname[:-1]
+        lname=lname[:-1]
+        print(fname,lname)
+
