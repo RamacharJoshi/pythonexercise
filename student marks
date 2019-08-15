@@ -1,0 +1,20 @@
+e="75"
+e=int(e)
+st="75"
+st=int(st)
+sp="25"
+sp=int(sp)
+m="100"
+m=int(m)
+e=e*75/100
+st=st*75/100
+sp=sp*25/100
+m=m*100/100
+if e>90 and st>90 and sp>90 and m>90:
+    print("grade a")
+elif e>75 and st>75 and sp>75 and m>75:
+    print("grade b")
+elif e<35 or st<35 or sp<35 or m<35:
+    print("fail")
+else:
+    print("average")
