@@ -1,0 +1,8 @@
+while True:
+    num=int(input("enmter the number :"))
+    if num>99 and num<1000:
+        num**=0.5
+        print(num)
+    if num==0:
+        break
+    
