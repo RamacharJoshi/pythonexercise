@@ -1,0 +1,12 @@
+a=1
+b=1
+counter=0
+while counter<17:
+    a=a+b
+    b=a+b
+    #counter+=1
+    if a%2==0:
+        print(a)
+    elif b%2==0:
+        print(b)
+    counter+=1
