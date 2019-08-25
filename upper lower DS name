@@ -1,0 +1,7 @@
+user1=input("enter name:")
+user2=input("enter name:")
+user=user1+user2
+print("name :",user1,"surname :",user2)
+print (user.upper())
+print()
+print (user.lower())
