@@ -1,0 +1,17 @@
+fname="web browser"
+name=len(fname)
+name=fname[-1]
+print("last char of sent is :",name)
+name=fname[-5:]
+print("last 5 char of sent is :",name)
+name=fname[2]
+print(name)
+name=fname[5]
+print(name)
+name=len(fname)
+print(name)
+l=len(fname)
+n=l//2
+print(n)
+cname=fname[n-1:n+2]
+print(cname)
