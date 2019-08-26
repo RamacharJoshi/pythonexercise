@@ -1,0 +1,32 @@
+def one_digit(n):
+    n=n+7
+    return n
+
+def two_digit(n):
+    n=n**5
+    return n
+
+def three_digit(n):
+    user=int(input("enter  the num: "))
+    n=user+n
+    return n
+
+#main starts from here
+
+num=int(input("enter the number: "))
+
+if num>1 and num<10:
+    one=one_digit(num)
+    print(one)
+    
+if num>9 and num<100:
+    two=two_digit(num)
+    print(two)
+    
+   
+if num>99 and num<1000:
+    three=three_digit(num)
+    print(three)
+        
+   
+    
