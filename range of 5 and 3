@@ -1,0 +1,10 @@
+num=int(input("enter the number :"))
+n=range(5)
+for i in n:
+    if num==5:
+        i=str(i)
+        print(i*4)
+    
+    if num==3:
+        i=str(i)
+        print(i*2)
