@@ -1,0 +1,7 @@
+num=int(input("enter the number :"))
+if num>0 and num<10:
+    print(num,"single digit no.")
+if num>9 and num<100:
+    print(num,"two digit no.")
+if num>99 and num<1000:
+    print(num,"three digit no.")
