@@ -1,0 +1,20 @@
+number = list()
+while 1:
+    num = int(input("enter 3 digit num :"))
+    if num == 0:
+        break
+    if num<=99 or num>=1000:
+        continue
+    number.append(num)
+    if num>99 or num<1000:
+        print(num)
+
+print(number)
+number.sort(reverse=True)
+print(number)
+num = number
+for i in num:
+    if i%2==0 or i%3==0 or i%5==0 or i%7==0:
+        print(i,'is not')
+    else:
+        print(i,'is prime')
