@@ -1,0 +1,21 @@
+FH = open("num.txt")
+FH = FH.readlines()
+total = []
+for num in FH:
+    num=int(num)
+    if num>99 and num<1000:
+        print(num)
+        total.append(num)
+    else:
+        print()
+print(total)
+total.sort(reverse=True)
+print(total)
+for i in total:
+    i = int(i)
+    if i%2==0 or i%3==0 or i%5==0 or i%7==0:
+        print(i,'is not prime')
+    else:
+        print(i,'is prime')
+    
+
